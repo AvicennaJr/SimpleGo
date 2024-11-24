@@ -1,2 +1,2 @@
-script: go build -o app
+script: go build -o app .
 run: app -host 0.0.0.0 -p 8888
